@@ -19,7 +19,7 @@ body {
     border-bottom: 1px solid rgba(225, 225, 225, 0.4);
 }
 
-.cabecalho .contrainer {
+.cabecalho .container {
     display: flex;
     align-items: center;
 }
@@ -99,9 +99,10 @@ body {
 .secaoDetalhesConta_opcoesTransacoes li {
     background-color: #1f6f54;
     width: 170px;
-    height: 177px;
+    height: 120px;
     border-radius: 20px;
     padding: 40px 20px;
+    margin-left: 15px;
 }
 
 .secaoDetalhesConta_opcoesTransacoes li img {
