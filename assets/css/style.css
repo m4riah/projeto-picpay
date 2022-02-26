@@ -2,6 +2,12 @@
 
 *{
     font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 body {
@@ -57,6 +63,7 @@ body {
 
 .secaoDetalhesConta_sobreUsuario--icones img {
     margin: 0 10px;
+    padding: 10px;
 }
 
 .secaoDetalhesConta_sobreUsuario p {
@@ -121,10 +128,9 @@ body {
 .secaoDetalhesConta_opcoesTransacoes li {
     background-color: #1f6f54;
     width: 170px;
-    height: 120px;
+    height: 175px;
     border-radius: 20px;
     padding: 40px 20px;
-    margin-left: 15px;
     cursor: pointer;
 }
 
