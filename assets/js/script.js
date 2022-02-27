@@ -34,3 +34,16 @@ function removeClasseMostrar(){
         divs[i].classList.remove("mostrar")
     }
 }
+
+var btn = document.querySelector('#olho-botao');
+var container = document.querySelector('.secaoDetalhesConta_sobreSaldo--valor p');
+
+btn.addEventListener('click', function() {
+    if(.secaoDetalhesConta_sobreSaldo--valor p.style.display === 'block') {
+      .secaoDetalhesConta_sobreSaldo--valor p.style.display = 'none';
+    } else {
+        .secaoDetalhesConta_sobreSaldo--valor p.style.display = 'block';
+
+    }
+    
+});

@@ -30,8 +30,9 @@
         <div class="container">
             <div class="secaoDetalhesConta_sobreUsuario"> 
                 <div class="secaoDetalhesConta_sobreUsuario--nome"> 
-                <img src="assets/img/usuario.png" alt="Ícone do usuário">
-        <p>Olá, <strong>@mariaporcina</strong></p>
+                <img id="image" src="assets/img/minhaimage.jfif" alt="Ícone do usuário"> 
+        <p>Olá,<br>
+        <strong><a href="https://github.com/m4riah" target="_blank">@m4riah</a></strong></p>
     </div>
     <div class="secaoDetalhesConta_sobreUsuario--icones">
         <img src="assets/img/presente.png" alt="ícone presente">
@@ -43,11 +44,16 @@
         <div>
         <p>Saldo Picpay</p>
         <div class="secaoDetalhesConta_sobreSaldo--valor">
-            <p>R$ 0,00</p> 
-            <img src="assets/img/visualizar.png" alt="Ícone visualizar">    
+            <p id="valor" >R$ 0,00</p> 
+            <button id="olho-botao">
+                <img src="assets/img/visualizar.png"  alt="Ícone visualizar">   
+            </button>
+
         </div>
     </div>
-        <button>Extrato</button>
+        <button id="bota-extrato">
+            Extrato
+        </button>
     </div>
 
     <ul class="secaoDetalhesConta_opcoesTransacoes">
@@ -93,7 +99,7 @@
             <!-- div do QR Code -->
             <div data-id="1" class="secaoTransacao_qrCode">
                 <img src="assets/img/qrcode-imagem.png" alt="Imagem QR Code">
-                <p>@mariaporcina</p>
+                <p>@m4riah</p>
                 <button>Cobre um amigo</button>
                 <a href="">Compartilhar meu código </a>
             </div>

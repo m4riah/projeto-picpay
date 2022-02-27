@@ -10,8 +10,20 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
 body {
     background-color: #228664;
+}
+
+#olho-botao {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
 }
 
 .container {
@@ -59,16 +71,26 @@ body {
 .secaoDetalhesConta_sobreUsuario--icones {
     display:flex;
     align-items: center;
+
+}
+
+#image {
+    width: 100%;
+    max-width: 50px;
+    height: 45px;
+    border-radius: 50%;
 }
 
 .secaoDetalhesConta_sobreUsuario--icones img {
     margin: 0 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .secaoDetalhesConta_sobreUsuario p {
     font-size: 18px;
     margin-left: 10px;
+
 }
 
 .secaoDetalhesConta_sobreUsuario img {
@@ -94,23 +116,29 @@ body {
     align-items: center
 }
 
-.secaoDetalhesConta_sobreSaldo p {
-    font-size: 18px;
-    line-height: 22px;
+.secaoDetalhesConta_sobreSaldo--valor button {
+    style="border: double;
+    height="80" 
+    width="170"
 }
 
-.secaoDetalhesConta_sobreSaldo--valor p {
+.secaoDetalhesConta_sobreSaldo p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#valor {
     font-weight: 600;
+    display: none;
 }
 
 .secaoDetalhesConta_sobreSaldo--valor img {
     display:block;
     height: 18px;
     width: 30px;
-    margin-left: 12px;
 }
 
-.secaoDetalhesConta_sobreSaldo button {
+#bota-extrato {
     background-color: #fff;
     border: none;
     font-weight: bold;
@@ -200,6 +228,7 @@ body {
     border-radius: 10px;
     margin: 50px 0 20px;
     padding: 15px 150px;
+    cursor: pointer;
 }
 
 .secaoTransacao_qrCode a {
