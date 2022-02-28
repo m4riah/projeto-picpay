@@ -116,11 +116,6 @@ body {
     align-items: center
 }
 
-.secaoDetalhesConta_sobreSaldo--valor button {
-    style="border: double;
-    height="80" 
-    width="170"
-}
 
 .secaoDetalhesConta_sobreSaldo p {
     font-size: 18px;
@@ -129,7 +124,7 @@ body {
 
 #valor {
     font-weight: 600;
-    display: none;
+    visibility: hidden;
 }
 
 .secaoDetalhesConta_sobreSaldo--valor img {
@@ -262,8 +257,6 @@ body {
     line-height: 20px;
 }
 
-.secaoTransacao_boleto {}
-
 .secaoTransacao_boleto img {
     width: 100%;
     max-width: 80px;
@@ -290,10 +283,6 @@ body {
     border: 1px solid #d2d2d2;
     color: #000;
     box-sizing: border-box;
-}
-
-.secaoTransacao_cobrar {
-
 }
 
 .secaoTransacao_cobrar img {

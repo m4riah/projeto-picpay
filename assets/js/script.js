@@ -36,14 +36,12 @@ function removeClasseMostrar(){
 }
 
 var btn = document.querySelector('#olho-botao');
-var container = document.querySelector('.secaoDetalhesConta_sobreSaldo--valor p');
+var container = document.querySelector('#valor'); 
 
 btn.addEventListener('click', function() {
-    if(.secaoDetalhesConta_sobreSaldo--valor p.style.display === 'block') {
-      .secaoDetalhesConta_sobreSaldo--valor p.style.display = 'none';
+    if(container.style.visibility === "visible") {
+        container.style.visibility = "hidden";
     } else {
-        .secaoDetalhesConta_sobreSaldo--valor p.style.display = 'block';
-
+        container.style.visibility = "visible";
     }
-    
 });
